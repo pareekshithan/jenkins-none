@@ -19,7 +19,7 @@ pipeline {
 		'''
           }
         }
-        stage('deploy' { 
+        stage('deploy') { 
             steps {
                 sh '''
 #!/bin/bash
